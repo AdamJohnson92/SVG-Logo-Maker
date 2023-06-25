@@ -1,3 +1,7 @@
+const inquirer = require("inquirer")
+const fs = require('fs');
+const generateLogo = require("./generateLogo.js");
+
 const questions = [
     {
         type: 'input',
@@ -29,7 +33,7 @@ function init() {inquirer
     .then(function(data) {
       console.log(data)
   
-    fs.writeFile("logo.svg", generateMarkdown (data), function (err)
+    fs.writeFile("logo.svg", generateLogo(data), function (err)
         {if (err) 
           {console.log(err)
          } else {
