@@ -38,7 +38,7 @@ function init() {inquirer
         {if (err) 
           {console.log(err)
          } else {
-            console.log('Success!')
+            console.log('Generated logo.svg')
           }
         }
         );
