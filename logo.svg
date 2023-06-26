@@ -4,6 +4,6 @@
     stroke='blue'
     fill='blue'>
     <polygon points='0,300 150,50 300, 300' />
-    <text font-size='6em' x='75' y='175' fill='black'> AGJ</text>
+    <text font-size='6em' x='75' y='175' fill='green'> AKP</text>
     </svg>
         

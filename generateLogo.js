@@ -20,7 +20,7 @@ function generateLogo(data) {
     stroke='${data.shapeColor}'
     fill='${data.shapeColor}'>
     <polygon points='0,300 150,50 300, 300' />
-    <text font-size='6em' x='75' y='175' fill='${data.textColor}'> ${data.text}</text>
+    <text font-size='5em' x='75' y='250' fill='${data.textColor}'> ${data.text}</text>
     </svg>
         `
 } else {
