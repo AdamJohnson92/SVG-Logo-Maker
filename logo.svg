@@ -1,8 +1,9 @@
 <svg 
     viewbox='0 0 400 300'
-    stroke='red'
-    fill='red'>
-    <circle cx='150' cy='150' r='150' />
-    <text font-size='2em' x='150' y='150' fill='black'> PPP</text>
+    width='300' height ='200'
+    stroke='blue'
+    fill='blue'>
+    <polygon points='0,300 150,50 300, 300' />
+    <text font-size='6em' x='75' y='175' fill='black'> AGJ</text>
     </svg>
         
