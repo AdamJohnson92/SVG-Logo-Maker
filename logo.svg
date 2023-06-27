@@ -1,9 +1,9 @@
 <svg 
     viewbox='0 0 400 300'
     width='300' height ='200'
-    stroke='teal'
-    fill='teal'>
-    <circle cx='150' cy='150' r='150' />
-    <text font-size='6em' x='75' y='175' fill='white'> AGJ</text>
+    stroke='blue'
+    fill='blue'>
+    <polygon points='0,300 300,300 300,0 0,0' />
+    <text font-size='5em' x='75' y='235' fill='white'> GGG</text>
     </svg>
         
