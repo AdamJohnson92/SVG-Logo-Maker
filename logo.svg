@@ -1,8 +1,8 @@
 <svg 
     width='300' height ='200'
-    stroke='blue'
-    fill='blue'>
+    stroke='teal'
+    fill='teal'>
     <polygon points='0,300 150,50 300, 300' />
-    <text font-size='5em' x='75' y='250' fill='green'> TES</text>
+    <text font-size='5em' x='75' y='250' fill='white'> AAA</text>
     </svg>
         
