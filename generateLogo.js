@@ -6,19 +6,17 @@ function generateLogo(data) {
         const circleObj = new ShapeCode 
 
     return `<svg 
-    viewbox='0 0 400 300'
     width='300' height ='200'
     stroke='${data.shapeColor}'
     fill='${data.shapeColor}'>
     ${circleObj.circleCode()}
-    <text font-size='6em' x='75' y='175' fill='${data.textColor}'> ${data.text}</text>
+    <text font-size='6em' x='60' y='175' fill='${data.textColor}'> ${data.text}</text>
     </svg>
         `
 } else if (data.shape === 'triangle'){
     const triangleObj = new ShapeCode 
 
     return `<svg 
-    viewbox='0 0 400 300'
     width='300' height ='200'
     stroke='${data.shapeColor}'
     fill='${data.shapeColor}'>
@@ -29,12 +27,11 @@ function generateLogo(data) {
 } else {
     const squareObj = new ShapeCode
     return `<svg 
-    viewbox='0 0 400 300'
     width='300' height ='200'
     stroke='${data.shapeColor}'
     fill='${data.shapeColor}'>
     ${squareObj.squareCode()}
-    <text font-size='5em' x='75' y='235' fill='${data.textColor}'> ${data.text}</text>
+    <text font-size='5em' x='70' y='175' fill='${data.textColor}'> ${data.text}</text>
     </svg>
         `
 }};

@@ -1,9 +1,8 @@
 <svg 
-    viewbox='0 0 400 300'
     width='300' height ='200'
     stroke='blue'
     fill='blue'>
-    <polygon points='0,300 300,300 300,0 0,0' />
-    <text font-size='5em' x='75' y='235' fill='white'> GGG</text>
+    <polygon points='0,300 150,50 300, 300' />
+    <text font-size='5em' x='75' y='250' fill='green'> TES</text>
     </svg>
         
